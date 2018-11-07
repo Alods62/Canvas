@@ -23,6 +23,35 @@ ctx.lineTo(200,150);
 ctx.fillStyle = "peru";
 ctx.fill();
 
+//Porte
+ctx.beginPath();
+ctx.moveTo(110,300);
+ctx.lineTo(110,240);
+ctx.lineTo(140,240);
+ctx.lineTo(140,300);
+ctx.lineTo(110,300);
+ctx.fillStyle="lightgray";
+ctx.fill();
+
+//Fenêtres
+
+  //Gauche
+ctx.beginPath();
+ctx.moveTo(65,165);
+ctx.lineTo(90,165);
+ctx.lineTo(90,190);
+ctx.lineTo(65,190);
+ctx.lineTo(65,165);
+ctx.fill();
+
+  //Droite
+ctx.beginPath();
+ctx.moveTo(158,165);
+ctx.lineTo(183,165);
+ctx.lineTo(183,190);
+ctx.lineTo(158,190);
+ctx.lineTo(158,165);
+ctx.fill();
 
 
 // EXERCICE 2
