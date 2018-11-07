@@ -66,12 +66,26 @@ ctx.fillStyle = "peru";
 ctx.fill();
 ctx.restore(); // Réinitialise la matrice
 
-
 // Murs
 ctx.beginPath();
-ctx.rect(400,150,150,150);
+ctx.rect(400,150,150,150); // rect ou  fillRect(startx, starty, largeur, hauteur) "faute dans le tuto ;)"
 ctx.fillStyle ="lightblue";
 ctx.fill();
+
+// Porte
+ctx.beginPath();
+ctx.fillStyle ="lightgray";
+ctx.fillRect(460,240,30,60);
+
+// Fenêtres
+  // Gauche
+ctx.beginPath();
+ctx.fillRect(415,165,25,25)
+
+  // Droite
+ctx.beginPath();
+ctx.fillRect(508,165,25,25)
+
 
 
 // EXERCICE 3
